@@ -1,0 +1,60 @@
+# Title:       LG webOS Blocklist - OPTIONAL / breaking tier
+# Generated:   2026-09-13
+# Entries:     43
+#
+# These are LG domains that remove TV FUNCTIONALITY, not just ads. Add this
+# list only if you accept the trade-off. Roughly:
+#   *ngfts.lge.com, *gfts.lge.com, snu.lge.com   firmware updates, Content
+#                                                Store thumbnails
+#   ibs.lgappstv.com, lgappstv.com               LG Content Store / app install
+#   lgthinq.com, lgtviot.com                     ThinQ phone app, IoT, alerts
+#   lgtvsdp.com, nextlgsdp.com, lgsmartplatform  service delivery platform
+#   lgechannel.com                               LG Channels (free FAST TV)
+#   lge.com, lgeapi.com, lg.com                  LG account, support, updates
+#
+# If the TV is already on an isolated VLAN with no inbound need, most people
+# run this list and simply accept manual firmware updates over USB.
+#
+aic-gfts.lge.com
+aic-gfts.nextlgsdp.com
+aic-ngfts.lge.com
+ca.ibs.lgappstv.com
+de.ibs.lgappstv.com
+eic-gfts.lge.com
+eic-gfts.nextlgsdp.com
+eic-ngfts.lge.com
+eic-ngfts.lge.com.edgekey.net
+eic-ngfts.tv.wiselg.com
+eic-qt2-ngfts.lge.com
+eic-qt2-ngfts.lge.com.edgekey.net
+es.ibs.lgappstv.com
+eu.ibs.lgappstv.com
+fr.ibs.lgappstv.com
+gfts.lge.com
+ibs.lgappstv.com
+it.ibs.lgappstv.com
+kic-ngfts.lge.com
+kic-ngfts.lge.com.edgekey.net
+kic-qt2-ngfts.lge.com
+lgappstv.com
+lge.com
+lgeapi.com
+lgechannel.com
+lggalleryplus.com
+lgsmartplatform.com
+lgsmartweb.com
+lgthinq.com
+lgtviot.com
+lgtvonline.lge.com
+lgtvsdp.com
+lgunifiedsmart.com
+nextlgsdp.com
+ngfts.lge.com
+ngfts.nextlgsdp.com
+pt.ibs.lgappstv.com
+qt2-ngfts.lge.com
+qt2-ngfts.lge.com.edgekey.net
+ruc-ngfts.lge.com
+snu.lge.com
+us.ibs.lgappstv.com
+wiselg.com
