@@ -3,7 +3,7 @@
 #              recommendation/nudge domains used by LG webOS televisions.
 # Homepage:    <your GitHub repo URL>
 # Generated:   2026-09-13
-# Entries:     815
+# Entries:     817
 # Syntax:      one domain per line (exact match)
 #
 # Built by merging every LG-specific Pi-hole/DNS blocklist found that had a
@@ -41,6 +41,12 @@
 # firmware updates (*ngfts.lge.com, snu.lge.com), the LG Content Store
 # (ibs.lgappstv.com, lgappstv.com), and the ThinQ app (lgthinq.com).
 # See lg-tv-blocklist-optional.txt if you want those too.
+#
+# NOTE: the two nevoai-iothub-*.azure-devices.net hosts are Universal
+# Electronics (QuickSet/Nevo) IoT hub endpoints -- the TV pushes its
+# local-device inventory there. Only these exact shard hostnames are
+# listed; NEVER block azure-devices.net itself, it is shared Microsoft
+# IoT Hub infrastructure used by unrelated products.
 #
 a.lgappstv.com
 ad.lgappstv.com
@@ -582,6 +588,8 @@ na.nextlgsdp.com
 nc.nextlgsdp.com
 ne.nextlgsdp.com
 netflixvoice.lgtvcommon.com
+nevoai-iothub-54-prod.azure-devices.net
+nevoai-iothub-57-prod.azure-devices.net
 nf.nextlgsdp.com
 ng-ad-lgsmartad-com.aws-prd.net
 ng.lgsmartad.com
